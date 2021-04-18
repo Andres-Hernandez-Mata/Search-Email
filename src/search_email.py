@@ -1,13 +1,16 @@
 """
 Uso: Email
 Creador: Andrés Hernández Mata
-Version: 1.0.0
+Version: 1.1.0
 Python: 3.9.1
 Fecha: 17 Abril 2020
 """
 
 import requests
 import re
+import os
+
+os.system("cls")
 
 url = 'https://www.themoscowtimes.com/page/moscow-times'
 
